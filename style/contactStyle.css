@@ -1,0 +1,81 @@
+
+.contact{
+    height: 100vh;
+    margin: 0 10% 50px 10%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+    line-height: 2;
+}
+.contact .title{
+  margin: 100px 0 20px 0;
+}
+
+.contact h2{
+  margin-top: 0;
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secondForm{
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  box-shadow: 8px 8px 50px 0px rgb(122, 123, 140);
+}
+
+.secondForm .form div{
+  display: flex;
+  flex-direction: column;
+}
+
+.secondForm .form input{
+  background-color: #f6f6f6;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.secondForm .form textarea {
+  background-color: #f6f6f6;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-family: 'PT Sans', sans-serif;
+  padding: 7px;
+}
+
+.secondForm .form button {
+  margin-top: 10px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  padding: 5px;
+}
+
+.secondForm .leftSide{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondForm .rightSide{
+  display: flex;
+  align-items: center;
+}
+
+.secondForm .img{
+  border-radius: 25px;
+    background-image: url(/cleaningShop-test/assets/kontakt.jpeg);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
