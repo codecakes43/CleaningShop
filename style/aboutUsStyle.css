@@ -14,3 +14,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.container-aboutUs p{
+    text-align: justify;
+    color: black;
+}
