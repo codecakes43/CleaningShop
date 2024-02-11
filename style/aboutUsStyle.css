@@ -3,19 +3,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px;
+    margin: 100px 0;
     font-family: 'Comfortaa', cursive;
     line-height: 2;
+    text-align: center;
 }
 
 .container-aboutUs h2{
-    text-align: justify;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .container-aboutUs p{
-    text-align: justify;
     color: black;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.teamImage{
+    width: 500px;
+    height: 400px;
+    background-image: url(/CleaningShop/assets/team.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 480px) {
+    .teamImage{
+        width: 300px;
+        height: 200px;
+    }
 }

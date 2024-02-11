@@ -1,7 +1,6 @@
 
 .contact{
-    height: 100vh;
-    margin: 0 10% 50px 10%;
+    margin: 100px 10% ;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
@@ -21,6 +20,7 @@
 }
 
 .secondForm{
+  padding: 10px;
   height: 500px;
   display: flex;
   justify-content: space-evenly;
@@ -59,6 +59,7 @@
 }
 
 .secondForm .leftSide{
+  padding-right: 10px;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -72,10 +73,40 @@
 
 .secondForm .img{
   border-radius: 25px;
-    background-image: url(/cleaningShop-test/assets/kontakt.jpeg);
+    background-image: url(/cleaningShop/assets/kontakt.jpeg);
     width: 300px;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  @media only screen and (max-width: 480px) {
+
+  .contact{
+    margin: 50px 0;
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .secondForm{
+    height: 1000px;
+    flex-direction: column;
+  }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .contact{
+      margin: 50px 0;
+      display: flex;
+      /* flex-direction: row; */
+    }
+    .secondForm{
+      height: 1000px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .secondForm .rightSide{
+      margin-top: 50px;
+    }
   }
